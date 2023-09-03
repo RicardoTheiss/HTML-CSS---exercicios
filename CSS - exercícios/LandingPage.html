@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NewestNews</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,10 +17,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Comfortaa:wght@300;400&family=Montserrat:wght@100&family=Rajdhani:wght@300&display=swap" rel="stylesheet">
 
-    <style>
+    <style>  
         body{
             background-color: #dad7cd;
         }
+        
         .img1{
             height: 100px;
             width: 100px;
@@ -30,17 +31,18 @@
             font-size: 50px;
             color: #344e41;
         }
+        
         .cab{
             display: flex;
             list-style-type: none; 
-            text-align: center;     
         }
         .cab li{
-            margin: 10px;
+            margin: 5px;
             font-size: 20px;
             font-family: 'Comfortaa', cursive;
             color: #52796f;
         }
+        
         a:link, a:visited{
             color: rgb(0, 0, 0);
         }
@@ -48,6 +50,7 @@
             background-color: #84a98c;
             color: #588157;
         }
+        
         h2{
             font-size: 20px;
             font-family: 'Comfortaa', cursive;
@@ -94,7 +97,7 @@
             color: #dad7cd;  
             text-align: center;
             background-color: #344e41;
-            border-radius: 20%;
+            border-radius: 10%;
             margin-left: 850px;
             margin-right: 850px;
       }
@@ -105,6 +108,13 @@
       .escritarodape{
         text-align: center;
         color: white;
+      }
+      .navcenter{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
 
         
@@ -118,13 +128,15 @@
             <img class="img1" src="assets/aquecimentooriginal.png">
             <h1>Newest News</h1>
          </div>
-        <nav class="navegacao fundonav">
-                <ul class="cab">
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-        </nav>
+         <div class="navcenter">
+             <nav class="navegacao fundonav">
+                     <ul class="cab">
+                         <li><a href="Home.html">Home</a></li>
+                         <li><a href="#news">News</a></li>
+                         <li><a href="#contato">Contato</a></li>
+                     </ul>
+                </nav>
+         </div>
     </header>
     <main>
         <h2 style="text-align: center;">Newest news is the best american website of the newest news in our continet!</h2>
